@@ -6,6 +6,10 @@ body {
     line-height: 1.6;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background: #333;
     color: #fff;
