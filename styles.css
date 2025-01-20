@@ -1,19 +1,31 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     line-height: 1.6;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f4f4f4; /* Light text color for contrast */
 }
 
+/* Enable smooth scrolling */
 html {
     scroll-behavior: smooth;
 }
 
+/* Header */
 header {
-    background: #333;
+    background: linear-gradient(45deg, #333, #444); /* Dark gradient for header */
     color: #fff;
     padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
 }
 
 header nav ul {
@@ -30,14 +42,24 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #fff; /* White text */
     font-size: 1.1em;
+    padding: 8px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slight hover effect */
+    color: #f4f4f4;
+}
+
+/* Hero Section */
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: #f4f4f4;
+    background: #2c3e50; /* Dark background for hero section */
 }
 
 .hero h1 {
@@ -57,16 +79,21 @@ header nav ul li a {
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 /* Sections */
 section {
     padding: 50px 20px;
+    background-color: #1a1a1a; /* Dark background for all sections */
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .projects-container {
@@ -77,14 +104,39 @@ h2 {
 }
 
 .project-card {
-    background: #eee;
+    background: #34495e; /* Slightly lighter dark background for cards */
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #555;
     width: 300px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
+    color: #fff;
 }
 
+/* Contact Section */
+input, textarea, button {
+    background: #34495e;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF; /* Blue highlight for input fields */
+    outline: none;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
