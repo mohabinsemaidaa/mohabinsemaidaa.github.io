@@ -6,7 +6,6 @@ As it is written up there my name is Mohammed Bin Semaidaa, and I am half yemeni
 <div class="badges-githubstats">
   <p align="center">
    <img src="https://github-readme-stats.vercel.app/api?username=mohabinsemaidaa&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="mohabinsemaidaa's Stats" height="165">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mohabinsemaidaa&theme=tokyonight&hide_border=true" alt="mohabinsemaidaa's Streak" height="165">
   </p>
 </div>
 
